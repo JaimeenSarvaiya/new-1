@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main-right {
+  writing-mode: vertical-lr;
+}
+.navbar-nav .active-menu {
+  font-weight: 700;
+  border-bottom: 3px solid blue;
+}
+.navbar-nav a:hover {
+  border-bottom: 3px solid blue;
+}
+
+.main-6-left-inner {
+  padding: 100px 0px 0px 108px;
+}
+
+.email-section {
+  position: relative;
+  display: inline-block;
+}
+
+.email-section input {
+  padding-right: 40px;
+}
+
+.email-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+::placeholder {
+  padding-left: 20px;
+}
+.main-10-section {
+  padding-left: 40px;
+  margin-left: 40px;
+}
+.box-inner {
+  float: right;
+}
+.box-arrow a {
+  border: 2px solid white;
+}
+@media only screen and (max-width: 768px) {
+  .navbar-collapse .contact-us-btn {
+    display: flex;
+    margin: 30px auto 0px;
+  }
+  .main-3 {
+    gap: 10px;
+  }
+  .main-3 h4 {
+    font-size: 20px;
+  }
+  .main-4-right-1 {
+    padding-top: 40px;
+  }
+  .main-5-right {
+    text-align: center;
+    padding-top: 30px;
+  }
+  .main-6 {
+    margin: 0 auto;
+  }
+  .main-6-left {
+    height: 500px;
+    display: flex;
+    align-items: center;
+  }
+  .main-6-right {
+    padding-right: 0;
+  }
+  .footer-options {
+    text-align: center;
+  }
+  .main-10-section {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .footer-header {
+    text-align: center;
+  }
+  .main-10-section h3 {
+    text-align: center;
+  }
+  .main-6-left-inner {
+    padding-left: 0;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+  }
+  .all-rights-reserved-section {
+    text-align: center;
+  }
+  .box-arrow {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+}
